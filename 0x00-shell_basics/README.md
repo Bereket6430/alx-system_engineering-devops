@@ -1,1 +1,1 @@
-devops tutorial
+basic shell commands
