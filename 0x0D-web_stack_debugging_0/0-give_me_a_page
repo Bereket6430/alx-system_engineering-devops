@@ -1,5 +1,3 @@
 #!/usr/bin/env bash
-# apache 2
-
-sudo service apache2 start
-sudo echo "Hello Holberton" | /var/www/html/index.html
+# script to initialize server apache
+/etc/init.d/apache2 start
