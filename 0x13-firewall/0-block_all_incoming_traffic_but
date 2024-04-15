@@ -1,5 +1,5 @@
-#!/bin/bash env
-# script that sets up a few firewall rules on web-01.
+apt update
+apt install -y ufw
 ufw default deny incoming
 ufw allow 22/tcp
 ufw allow 80/tcp
